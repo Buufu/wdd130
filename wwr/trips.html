@@ -16,7 +16,7 @@
     <!-- Header -->
     <header>
         <img src="images/logo.png" alt="White rafting logo" class="logo">
-        <nav>
+        <nav aria-label="Main navigation">
             <ul>
                 <li><a href="index.html">Home</a></li>
                 <li><a href="about.html">About Us</a></li>
@@ -62,16 +62,17 @@
         </section>
 
         <!-- Trips Table -->
-        <section>
+        <section class="trips-table">
             <h2>Available Trips Overview</h2>
-            <div style="overflow-x: auto;">
+            <div class="table-scroll">
                 <table>
+                    <caption>Summary of rafting trips, length, difficulty, and pricing.</caption>
                     <thead>
                         <tr>
-                            <th>Trip Name</th>
-                            <th>Length</th>
-                            <th>Difficulty</th>
-                            <th>Price</th>
+                            <th scope="col">Trip Name</th>
+                            <th scope="col">Length</th>
+                            <th scope="col">Difficulty</th>
+                            <th scope="col">Price</th>
                         </tr>
                     </thead>
                     <tbody>
@@ -103,7 +104,7 @@
     <!-- Footer -->
     <footer>
         <p>© 2026 White Water Rafting Adventures | Andrew Ssebuufu</p>
-        <nav class="socialmedia">
+        <nav class="socialmedia" aria-label="Social media links">
             <a href="https://facebook.com"><img src="images/facebook.svg" alt="Facebook Icon"></a>
             <a href="https://www.tiktok.com"><img src="images/tictok-bw.svg" alt="TikTok Icon"></a>
             <a href="https://instagram.com"><img src="images/instagram.svg" alt="Instagram Icon"></a>
